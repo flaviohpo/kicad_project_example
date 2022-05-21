@@ -1,0 +1,28 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid fe321e56-d054-43a2-a64f-f6851940a1fe)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+
+  (hierarchical_label "VCC_PROTECTED" (shape output) (at 118.11 66.04 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 629ada29-2891-4e9b-919c-db8e4dafc15c)
+  )
+  (hierarchical_label "GND_EXTERN" (shape output) (at 82.55 69.85 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a2433777-11f2-4eb1-89e1-3c7d084b487b)
+  )
+  (hierarchical_label "GND_PROTECTED" (shape input) (at 118.11 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a401463b-3576-456c-9e87-ba5bc2076b5d)
+  )
+  (hierarchical_label "VCC_EXTERN" (shape input) (at 82.55 66.04 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d1cb0540-773f-4837-8e21-d8a197f5a8c4)
+  )
+)
